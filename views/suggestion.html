@@ -4,6 +4,6 @@
   <h2 class="suggestion-title">{{ post.comment.title }}</h2>
   <div ng-repeat="post.comment in posts.comments">
   	<p class="comment">{{ post.comment }}</p>
-  	<span class="glyphicon glyphicon-plus-sign green upvotes comments" ng-click="upvote(post)">Upvotes: {{ post.comment.upvotes }}</span>
+  	<span class="glyphicon glyphicon-plus-sign green upvotes comments" ng-click="upVoteComment($index)">Upvotes: {{ post.comment.upvotes }}</span>
   </div>
 </div>

@@ -16,8 +16,8 @@ app.controller('HomeController', [
   	});
   	$scope.title = '';
   };
-  
-  $scope.upVote = function(post) {
-  	$scope.posts[post].upvotes += 1;
+
+  $scope.upVote = function(index) {
+  	$scope.posts[index].upvotes += 1;
   };
 }]);

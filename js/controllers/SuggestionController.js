@@ -11,8 +11,8 @@ app.controller('SuggestionController', ['$scope', '$routeParams', 'suggestions',
 			});
 			$scope.post.comment = '';
 		};
-		$scope.upVoteComment = function(comment) {
-			$scope.post[comment].upvotes += 1; 
+		$scope.upVoteComment = function(index) {
+			$scope.post.comment[index].upvotes += 1; 
 		};
 	});
 }]);
