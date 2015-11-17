@@ -12,23 +12,54 @@ app.factory('suggestions', [function() {
 	      	{
 	      	  body: 'YESSS!!!',
 	      	  upvotes: 5
+	      	},
+	      	{
+	      	  body: 'Hooray Pizza!',
+	      	  upvotes: 4
 	      	}
 	      ]
 	    },
 	    {
 	      title: 'End all club emails with Laffy Taffy jokes',
 	      upvotes: 9,
-	      comments: []
+	      comments: [
+	      	{
+	      	  body: 'I love those!',
+	      	  upvotes: 4
+	      	},
+	      	{
+	      	  body: 'Not my cup of tea',
+	      	  upvotes: 2
+	      	}
+	      ]
 	    },
 	    {
 	      title: 'Retrofit water fountain with Gatorade',
 	      upvotes: 7,
-	      comments: []
+	      comments: [
+	      	{
+	      	  body: 'This would be great after my lunch break workout',
+	      	  upvotes: 3
+	      	}
+	      ]
 	    },
 	    {
 	      title: 'Sing Bon Jovi\'s "Living on a Prayer" halfway throught meetings',
 	      upvotes: 3,
-	      comments: []
+	      comments: [
+	      	{
+	      	  body: 'Let\'s not and say we did',
+	      	  upvotes: 4
+	      	},
+	      	{
+	      	  body: 'How about just the first line of the chorus?',
+	      	  upvotes: 3
+	      	},
+	      	{
+	      	  body: 'Good idea',
+	      	  upvotes: 1
+	      	}
+	      ]
 	    }
 	  ]
 	}
