@@ -3,7 +3,7 @@
 <div class="suggestion-comments col-md-8 col-md-offset-2">
   <h2 class="suggestion-title">{{ post.title }}</h2>
   <div class="comment" ng-repeat="comment in post.comments | orderBy:'-upvotes'">
-  	<p>{{ comment.body }}</p>
+  	<h3 class="comment-body">{{ comment.body }}</h3>
   	<p>
   	  <span class="glyphicon glyphicon-plus-sign green pointer" ng-click="upVoteComment(comment)"></span> Upvotes: {{ comment.upvotes }}
   	</p>

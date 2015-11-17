@@ -24,6 +24,8 @@ h2 {
 .suggestion-title {
 	color: white;
 	font-size: 3em;
+	padding-bottom: 0.5em;
+	border-bottom: solid 1px white;
 }
 
 .blue {
@@ -54,6 +56,11 @@ h2 {
 	margin: 0 0 8px;
 	padding: 20px 0;
 	border-bottom: dotted 1px white;
+}
+
+.comment-body {
+	font-size: 1.5em;
+	font-weight: 200;
 }
 
 .green {
