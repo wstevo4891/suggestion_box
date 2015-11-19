@@ -5,7 +5,7 @@ comment on posts, and upvote both posts and comments.
 
 I built this app for the Codecademy-Pro AngularJS final project.
 
-Thanks to the dropper tool, I was able to build a CSS layout nearly identical to
+Thanks to the eyedropper tool, I was able to build a CSS layout nearly identical to
 the example photo provided for the project.
 
 #Installation
